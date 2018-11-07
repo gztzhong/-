@@ -1,0 +1,46 @@
+{
+  "pages":[
+
+    "pages/index/index",
+    "pages/producttype/producttype",
+    "pages/tongxunlu/tongxunlu",
+    "pages/citys/citys",    
+    "pages/logs/logs",
+    "pages/position/position" 
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "selectedColor": "#FF4411",
+      "backgroundColor": "#FFFFFF",
+      "position": "button",
+      "list": [
+        {
+          "selectedColor": "#FF4411",
+          "pagePath": "pages/index/index",
+          "text": "定位",
+          "iconPath": "images/icon/home_tab_home.png",
+          "selectedIconPath": "images/icon/home_tab_homeed.png"
+        },
+        {
+          "selectedColor": "#FF4411",
+          "pagePath": "pages/producttype/producttype",
+          "text": "类别",
+          "iconPath": "images/icon/home_tab_home.png",
+          "selectedIconPath": "images/icon/home_tab_homeed.png"
+        },
+        {
+          "selectedColor": "#FF4411",
+          "pagePath": "pages/tongxunlu/tongxunlu",
+          "text": "城市",
+          "iconPath": "images/icon/guanyuwome.png",
+          "selectedIconPath": "images/icon/home_tab_searched.png"
+        } 
+      ]
+    }
+}
